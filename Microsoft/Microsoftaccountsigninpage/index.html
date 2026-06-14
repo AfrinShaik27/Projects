@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Microsoft account creation</title>
+  <title>Microsoft Login</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,19 +14,24 @@
           <h4>Microsoft</h4>
         </div>
         <div class="actions" id="signin">
-          <h2>Create your Microsoft account</h2>
+          <h2>Sign in</h2>
         </div>
         <div class="actions" id="use">
-          <p>Enter your email address</p>
+          <p>Use your Microsoft account</p>
         </div>
         <div class="actions">
-          <input type="email" placeholder="Email" >
+          <input type="text"  placeholder="Email or phone number" id="emailphone" >
+        </div>
+        <div id="forget">
+          <a href="">Forget your username?</a>
         </div>
         <div class="actions"class="actions" id="ntn">
-          <button id="btn">Next</button>
+          <button id="btn" onclick="next()">Next</button>
         </div>
-        <div class="actions" id="newto"><p>Already have an account?</p><a href="../Microsoft/index.html">Sign in</a></div>
+        <div class="actions" id="newto"><p>New to Microsoft?</p><a href="../Microsoftaccountloginpage/index.html">Create an account</a></div>
     </div>
   </div>
+  <script src="app.js"></script>
+  
 </body>
 </html>
